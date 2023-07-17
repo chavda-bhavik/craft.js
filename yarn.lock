@@ -2252,9 +2252,10 @@ __metadata:
   resolution: "@craftjs/core@workspace:packages/core"
   dependencies:
     "@craftjs/utils": ^0.2.0-beta.12
+    "@types/lodash": ^4.14.195
     "@types/react": 18.0.27
     debounce: ^1.2.0
-    lodash: ^4.17.20
+    lodash: ^4.17.21
     react: 18.2.0
     tiny-invariant: ^1.0.6
   peerDependencies:
@@ -2272,7 +2273,7 @@ __metadata:
     react-contenteditable: ^3.3.3
     styled-components: 4.2.1
   peerDependencies:
-    "@craftjs/core": ^0.2.0-alpha.19
+    "@craftjs/core": ^0.2.0-beta.11
     react: ^16.8.0 || ^17 || ^18
     styled-components: ">= 4"
   languageName: unknown
@@ -2284,7 +2285,7 @@ __metadata:
   dependencies:
     "@types/react": 18.0.27
     immer: ^9.0.6
-    lodash: ^4.17.20
+    lodash: ^4.17.21
     nanoid: ^3.1.23
     shallowequal: ^1.1.0
     tiny-invariant: ^1.0.6
@@ -5428,6 +5429,13 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: ee0d098693bf4af44be756eed02daf95f5d0fd4b5b02da952a5952e08842baddf6a986a9ea5f9e460729782f1a0a47848c892ad96ea188b66a363feb49a1536f
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:^4.14.195":
+  version: 4.14.195
+  resolution: "@types/lodash@npm:4.14.195"
+  checksum: 39b75ca635b3fa943d17d3d3aabc750babe4c8212485a4df166fe0516e39288e14b0c60afc6e21913cc0e5a84734633c71e617e2bd14eaa1cf51b8d7799c432e
   languageName: node
   linkType: hard
 
